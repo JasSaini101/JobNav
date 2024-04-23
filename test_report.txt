@@ -74,12 +74,12 @@ All files            |       0 |        0 |       0 |       0 |
   Navbar.tsx         |       0 |      100 |       0 |       0 | 6-7               
   NavbarElements.tsx |       0 |      100 |     100 |       0 | 5-47              
  src/pages           |       0 |        0 |       0 |       0 |                   
-  BasicPage.tsx      |       0 |        0 |       0 |       0 | 8-386             
+  BasicPage.tsx      |       0 |        0 |       0 |       0 | 8-358             
   DetailedPage.tsx   |       0 |        0 |       0 |       0 | 5-572             
-  homePage.tsx       |       0 |        0 |       0 |       0 | 9-91              
+  homePage.tsx       |       0 |        0 |       0 |       0 | 10-108            
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        3.823 s
+Time:        3.864 s
 Ran all test suites.
