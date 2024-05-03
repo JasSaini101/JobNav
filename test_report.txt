@@ -72,15 +72,15 @@ All files            |       0 |        0 |       0 |       0 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/components      |       0 |      100 |       0 |       0 |                   
   Navbar.tsx         |       0 |      100 |       0 |       0 | 6-7               
-  NavbarElements.tsx |       0 |      100 |     100 |       0 | 5-56              
+  NavbarElements.tsx |       0 |      100 |     100 |       0 | 5-53              
  src/pages           |       0 |        0 |       0 |       0 |                   
   BasicPage.tsx      |       0 |        0 |       0 |       0 | 8-367             
   DetailedPage.tsx   |       0 |        0 |       0 |       0 | 11-768            
   ResultsPage.tsx    |       0 |      100 |       0 |       0 | 12-15             
-  homePage.tsx       |       0 |        0 |       0 |       0 | 11-110            
+  homePage.tsx       |       0 |        0 |       0 |       0 | 11-111            
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        4.112 s
+Time:        4.19 s
 Ran all test suites.
