@@ -3,48 +3,195 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ● Test suite failed to run
+  ✕ renders learn react link (62 ms)
 
-    Jest encountered an unexpected token
+  ● renders learn react link
 
-    Jest failed to parse a file. This happens e.g. when your code or its dependencies use non-standard JavaScript syntax, or when Jest is not configured to support such syntax.
+    TestingLibraryElementError: Unable to find an element with the text: /learn react/i. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
 
-    Out of the box Jest supports Babel, which will be used to transform your files into valid JS based on your Babel configuration.
+    Ignored nodes: comments, script, style
+    [36m<body>[39m
+      [36m<div>[39m
+        [36m<nav[39m
+          [33mclass[39m=[32m"sc-beySPh dYoqou"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"site-title"[39m
+          [36m>[39m
+            [36m<p>[39m
+              [0mJobNav.com[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"sc-eDLKkx hDiFrL"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33maria-current[39m=[32m"page"[39m
+              [33mclass[39m=[32m"sc-guDLey dKPrJP active"[39m
+              [33mhref[39m=[32m"#/"[39m
+            [36m>[39m
+              [0mHome Page[0m
+            [36m</a>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"sc-guDLey dKPrJP"[39m
+              [33mhref[39m=[32m"#/BasicPage"[39m
+            [36m>[39m
+              [0mBasic Page[0m
+            [36m</a>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"sc-guDLey dKPrJP"[39m
+              [33mhref[39m=[32m"#/DetailedPage"[39m
+            [36m>[39m
+              [0mDetailed Page[0m
+            [36m</a>[39m
+          [36m</div>[39m
+        [36m</nav>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"splash-container"[39m
+        [36m>[39m
+          [36m<img[39m
+            [33malt[39m=[32m"businessMountains"[39m
+            [33mclass[39m=[32m"splashPage"[39m
+            [33msrc[39m=[32m"businessman.png"[39m
+          [36m/>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"one"[39m
+          [36m>[39m
+            [0mStruggling to find your way?[0m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"two"[39m
+          [36m>[39m
+            [0mLooking for answers and coming up short?[0m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"three"[39m
+          [36m>[39m
+            [0mTake the quiz that best suits your needs and worry no longer![0m
+          [36m</div>[39m
+          [36m<a[39m
+            [33mhref[39m=[32m"#/#quiz-desc-container"[39m
+          [36m>[39m
+            [0mFind your quiz![0m
+          [36m</a>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mid[39m=[32m"quiz-descs"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"quiz-desc-container"[39m
+        [36m>[39m
+          [36m<a[39m
+            [33mclass[39m=[32m"sc-dmyCSP jtNxMP"[39m
+            [33mhref[39m=[32m"#/BasicPage"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"quiz-desc"[39m
+            [36m>[39m
+              [36m<h3>[39m
+                [0mBasic Quiz[0m
+              [36m</h3>[39m
+              [36m<p>[39m
+                [0mWant to take a peek into your career’s future, but don’t have time to take the full career assessment? The basic career quiz is a smaller, faster alternative that gives similar results to the detailed assessment. With only 8 true or false questions, this quiz should only take 5 minutes of your time to show you your future career.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</a>[39m
+          [36m<a[39m
+            [33mclass[39m=[32m"sc-dmyCSP jtNxMP"[39m
+            [33mhref[39m=[32m"#/DetailedPage"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"quiz-desc"[39m
+            [36m>[39m
+              [36m<h3>[39m
+                [0mDetailed Quiz[0m
+              [36m</h3>[39m
+              [36m<p>[39m
+                [0mIf you want to gain in-depth insight into your career path, this quiz is for you! Multiple-choice, personality-based questions will analyze your core values and identify your ideal career path, selecting from numerous high-profile industries.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</a>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"quiz-data-container"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"quiz-data-text"[39m
+          [36m>[39m
+            [36m<p>[39m
+              [0mCareer quizzes are proven to help the masses achieve thier goals and secure professional success. Money can buy happiness, but only purpose can bring fulfillment.[0m
+            [36m</p>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"quiz-data-graph"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"piechart"[39m
+            [36m/>[39m
+            [36m<p>[39m
+              [0mSatisfaction rates from other users![0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"sc-dmyCSP jtNxMP"[39m
+          [33mhref[39m=[32m"#/ResultsPage"[39m
+        [36m>[39m
+          [0mTemporary Results Link[0m
+        [36m</a>[39m
+        [36m<form[39m
+          [33mclass[39m=[32m""[39m
+        [36m>[39m
+          [36m<label[39m
+            [33mclass[39m=[32m"form-label"[39m
+          [36m>[39m
+            [0mAPI Key:[0m
+          [36m</label>[39m
+          [36m<input[39m
+            [33mclass[39m=[32m"form-control"[39m
+            [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+            [33mtype[39m=[32m"password"[39m
+          [36m/>[39m
+          [36m<br />[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mSubmit[0m
+          [36m</button>[39m
+        [36m</form>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"app-footer"[39m
+        [36m>[39m
+          [36m<p>[39m
+            [0mJobnav.com©[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mDeveloped by Saini, Le, Torres, and Walsh[0m
+          [36m</p>[39m
+          [36m<p>[39m
+            [0mFor more information, email jassaini@udel.edu[0m
+          [36m</p>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</body>[39m
 
-    By default "node_modules" folder is ignored by transformers.
+       5 | test('renders learn react link', () => {
+       6 |   render(<App />);
+    >  7 |   const linkElement = screen.getByText(/learn react/i);
+         |                              ^
+       8 |   expect(linkElement).toBeInTheDocument();
+       9 | });
+      10 |
 
-    Here's what you can do:
-     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/ecmascript-modules for how to enable it.
-     • If you are trying to use TypeScript, see https://jestjs.io/docs/getting-started#using-typescript
-     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
-     • If you need a custom transformation specify a "transform" option in your config.
-     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
-
-    You'll find more details and examples of these config options in the docs:
-    https://jestjs.io/docs/configuration
-    For information about custom transformations, see:
-    https://jestjs.io/docs/code-transformation
-
-    Details:
-
-    /home/runner/work/starter_helpi/starter_helpi/node_modules/react-bootstrap/esm/Button.js:3
-    import classNames from 'classnames';
-    ^^^^^^
-
-    SyntaxError: Cannot use import statement outside a module
-
-      3 | import React, { useEffect, useState } from "react";
-      4 | import { Form, ProgressBar, Alert, /*FormLabel*/ } from "react-bootstrap";
-    > 5 | import Button from "react-bootstrap/esm/Button";
-        | ^
-      6 | //import constructWithOptions from "styled-components/dist/constructors/constructWithOptions";
-      7 | import OpenAI from "openai";
-      8 | import { key } from "./homePage"
-
-      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1728:14)
-      at Object.<anonymous> (src/pages/DetailedPage.tsx:5:1)
-      at Object.<anonymous> (src/App.tsx:10:1)
-      at Object.<anonymous> (src/App.test.tsx:3:1)
+      at Object.getElementError (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/config.js:37:19)
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+      at node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+      at getByText (node_modules/@testing-library/react/node_modules/@testing-library/dom/dist/query-helpers.js:95:19)
+      at Object.<anonymous> (src/App.test.tsx:7:30)
       at TestScheduler.scheduleTests (node_modules/@jest/core/build/TestScheduler.js:333:13)
       at runJest (node_modules/@jest/core/build/runJest.js:404:19)
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
@@ -65,22 +212,22 @@ go away.[0m
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |       0 |        0 |       0 |       0 |                   
- src                 |       0 |        0 |       0 |       0 |                   
-  App.tsx            |       0 |      100 |       0 |       0 | 17                
+All files            |    6.61 |     1.96 |    3.22 |    6.79 |                   
+ src                 |    8.33 |        0 |   33.33 |    8.33 |                   
+  App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-20              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/components      |       0 |      100 |       0 |       0 |                   
-  Navbar.tsx         |       0 |      100 |       0 |       0 | 6-7               
-  NavbarElements.tsx |       0 |      100 |     100 |       0 | 5-53              
- src/pages           |       0 |        0 |       0 |       0 |                   
-  BasicPage.tsx      |       0 |        0 |       0 |       0 | 8-367             
-  DetailedPage.tsx   |       0 |        0 |       0 |       0 | 11-768            
-  ResultsPage.tsx    |       0 |      100 |       0 |       0 | 12-15             
-  homePage.tsx       |       0 |        0 |       0 |       0 | 11-111            
+ src/components      |     100 |      100 |     100 |     100 |                   
+  Navbar.tsx         |     100 |      100 |     100 |     100 |                   
+  NavbarElements.tsx |     100 |      100 |     100 |     100 |                   
+ src/pages           |    3.95 |     2.04 |    1.12 |    4.06 |                   
+  BasicPage.tsx      |    1.36 |        0 |       0 |    1.38 | 8-367             
+  DetailedPage.tsx   |    1.18 |        0 |       0 |    1.22 | 12-14,26-784      
+  ResultsPage.tsx    |      50 |      100 |       0 |      50 | 15                
+  homePage.tsx       |   66.66 |      100 |   33.33 |   66.66 | 21-28             
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
-Tests:       0 total
+Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.19 s
+Time:        3.495 s
 Ran all test suites.
