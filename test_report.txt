@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (67 ms)
+  ✕ renders learn react link (68 ms)
 
   ● renders learn react link
 
@@ -218,7 +218,7 @@ go away.[0m
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |    9.93 |     4.83 |    4.08 |   10.16 |                   
+All files            |    9.67 |     4.68 |    4.08 |     9.9 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-20              
@@ -227,14 +227,14 @@ All files            |    9.93 |     4.83 |    4.08 |   10.16 |
   Navbar.tsx         |     100 |      100 |     100 |     100 |                   
   NavbarElements.tsx |   68.75 |       50 |     100 |   68.75 | 72-119            
   darkMode.tsx       |      60 |       30 |      50 |      60 | 10-13             
- src/pages           |    3.81 |     1.85 |    1.08 |    3.92 |                   
-  BasicPage.tsx      |    1.33 |        0 |       0 |    1.35 | 10-400            
-  DetailedPage.tsx   |    1.13 |        0 |       0 |    1.17 | 10-12,24-752      
-  ResultsPage.tsx    |      50 |      100 |       0 |      50 | 15                
+ src/pages           |     3.7 |     1.78 |    1.08 |     3.8 |                   
+  BasicPage.tsx      |    1.29 |        0 |       0 |    1.31 | 11-403            
+  DetailedPage.tsx   |    1.12 |        0 |       0 |    1.16 | 11-13,25-761      
+  ResultsPage.tsx    |   16.66 |        0 |       0 |   16.66 | 10-19             
   homePage.tsx       |   66.66 |      100 |   33.33 |   66.66 | 21-28             
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.768 s
+Time:        3.879 s
 Ran all test suites.
