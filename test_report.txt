@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (68 ms)
+  ✕ renders learn react link (63 ms)
 
   ● renders learn react link
 
@@ -228,7 +228,7 @@ All files            |    9.67 |     4.68 |    4.08 |     9.9 |
   NavbarElements.tsx |   68.75 |       50 |     100 |   68.75 | 72-119            
   darkMode.tsx       |      60 |       30 |      50 |      60 | 10-13             
  src/pages           |     3.7 |     1.78 |    1.08 |     3.8 |                   
-  BasicPage.tsx      |    1.29 |        0 |       0 |    1.31 | 11-403            
+  BasicPage.tsx      |    1.29 |        0 |       0 |    1.31 | 11-355            
   DetailedPage.tsx   |    1.12 |        0 |       0 |    1.16 | 11-13,25-761      
   ResultsPage.tsx    |   16.66 |        0 |       0 |   16.66 | 10-19             
   homePage.tsx       |   66.66 |      100 |   33.33 |   66.66 | 21-28             
@@ -236,5 +236,5 @@ All files            |    9.67 |     4.68 |    4.08 |     9.9 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.879 s
+Time:        4.044 s
 Ran all test suites.
