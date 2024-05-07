@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (62 ms)
+  ✕ renders learn react link (66 ms)
 
   ● renders learn react link
 
@@ -212,7 +212,7 @@ go away.[0m
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |    6.61 |     1.96 |    3.22 |    6.79 |                   
+All files            |    6.45 |     1.88 |    3.12 |    6.61 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-20              
@@ -220,14 +220,14 @@ All files            |    6.61 |     1.96 |    3.22 |    6.79 |
  src/components      |     100 |      100 |     100 |     100 |                   
   Navbar.tsx         |     100 |      100 |     100 |     100 |                   
   NavbarElements.tsx |     100 |      100 |     100 |     100 |                   
- src/pages           |    3.95 |     2.04 |    1.12 |    4.06 |                   
-  BasicPage.tsx      |    1.36 |        0 |       0 |    1.38 | 8-367             
-  DetailedPage.tsx   |    1.18 |        0 |       0 |    1.22 | 12-14,26-784      
+ src/pages           |    3.84 |     1.96 |    1.08 |    3.95 |                   
+  BasicPage.tsx      |    1.36 |        0 |       0 |    1.38 | 8-338             
+  DetailedPage.tsx   |    1.13 |        0 |       0 |    1.17 | 10-12,24-752      
   ResultsPage.tsx    |      50 |      100 |       0 |      50 | 15                
   homePage.tsx       |   66.66 |      100 |   33.33 |   66.66 | 21-28             
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.495 s
+Time:        3.553 s
 Ran all test suites.
