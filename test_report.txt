@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (63 ms)
+  ✕ renders learn react link (64 ms)
 
   ● renders learn react link
 
@@ -13,7 +13,7 @@ FAIL src/App.test.tsx
     [36m<body>[39m
       [36m<div>[39m
         [36m<nav[39m
-          [33mclass[39m=[32m"sc-jTQCzO eXnaya"[39m
+          [33mclass[39m=[32m"sc-jTQCzO OFLS"[39m
         [36m>[39m
           [36m<div[39m
             [33mclass[39m=[32m"site-title"[39m
@@ -29,23 +29,23 @@ FAIL src/App.test.tsx
             [0mLight Mode[0m
           [36m</button>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"sc-qZrbh eTLMJq"[39m
+            [33mclass[39m=[32m"sc-qZrbh kDYwWS"[39m
           [36m>[39m
             [36m<a[39m
               [33maria-current[39m=[32m"page"[39m
-              [33mclass[39m=[32m"sc-gLLuof busmGi active"[39m
+              [33mclass[39m=[32m"sc-gLLuof dvRcey active"[39m
               [33mhref[39m=[32m"#/"[39m
             [36m>[39m
               [0mHome Page[0m
             [36m</a>[39m
             [36m<a[39m
-              [33mclass[39m=[32m"sc-gLLuof busmGi"[39m
+              [33mclass[39m=[32m"sc-gLLuof dvRcey"[39m
               [33mhref[39m=[32m"#/BasicPage"[39m
             [36m>[39m
               [0mBasic Page[0m
             [36m</a>[39m
             [36m<a[39m
-              [33mclass[39m=[32m"sc-gLLuof busmGi"[39m
+              [33mclass[39m=[32m"sc-gLLuof dvRcey"[39m
               [33mhref[39m=[32m"#/DetailedPage"[39m
             [36m>[39m
               [0mDetailed Page[0m
@@ -88,7 +88,7 @@ FAIL src/App.test.tsx
           [33mclass[39m=[32m"quiz-desc-container"[39m
         [36m>[39m
           [36m<a[39m
-            [33mclass[39m=[32m"sc-iBdnpw eAVZKN"[39m
+            [33mclass[39m=[32m"sc-iBdnpw gkKeGN"[39m
             [33mhref[39m=[32m"#/BasicPage"[39m
           [36m>[39m
             [36m<div[39m
@@ -97,13 +97,15 @@ FAIL src/App.test.tsx
               [36m<h3>[39m
                 [0mBasic Quiz[0m
               [36m</h3>[39m
-              [36m<p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text"[39m
+              [36m>[39m
                 [0mWant to take a peek into your career’s future, but don’t have time to take the full career assessment? The basic career quiz is a smaller, faster alternative that gives similar results to the detailed assessment. With only 8 true or false questions, this quiz should only take 5 minutes of your time to show you your future career.[0m
               [36m</p>[39m
             [36m</div>[39m
           [36m</a>[39m
           [36m<a[39m
-            [33mclass[39m=[32m"sc-iBdnpw eAVZKN"[39m
+            [33mclass[39m=[32m"sc-iBdnpw gkKeGN"[39m
             [33mhref[39m=[32m"#/DetailedPage"[39m
           [36m>[39m
             [36m<div[39m
@@ -112,7 +114,9 @@ FAIL src/App.test.tsx
               [36m<h3>[39m
                 [0mDetailed Quiz[0m
               [36m</h3>[39m
-              [36m<p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text"[39m
+              [36m>[39m
                 [0mIf you want to gain in-depth insight into your career path, this quiz is for you! Multiple-choice, personality-based questions will analyze your core values and identify your ideal career path, selecting from numerous high-profile industries.[0m
               [36m</p>[39m
             [36m</div>[39m
@@ -139,12 +143,6 @@ FAIL src/App.test.tsx
             [36m</p>[39m
           [36m</div>[39m
         [36m</div>[39m
-        [36m<a[39m
-          [33mclass[39m=[32m"sc-iBdnpw eAVZKN"[39m
-          [33mhref[39m=[32m"#/ResultsPage"[39m
-        [36m>[39m
-          [0mTemporary Results Link[0m
-        [36m</a>[39m
         [36m<form[39m
           [33mclass[39m=[32m""[39m
         [36m>[39m
@@ -218,23 +216,23 @@ go away.[0m
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |    9.67 |     4.68 |    4.08 |     9.9 |                   
+All files            |     9.5 |     4.03 |    4.08 |    9.73 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-20              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/components      |   67.85 |    33.33 |   66.66 |   67.85 |                   
+ src/components      |      72 |    21.42 |   66.66 |      72 |                   
   Navbar.tsx         |     100 |      100 |     100 |     100 |                   
-  NavbarElements.tsx |   68.75 |       50 |     100 |   68.75 | 72-119            
-  darkMode.tsx       |      60 |       30 |      50 |      60 | 10-13             
- src/pages           |     3.7 |     1.78 |    1.08 |     3.8 |                   
-  BasicPage.tsx      |    1.29 |        0 |       0 |    1.31 | 11-355            
-  DetailedPage.tsx   |    1.12 |        0 |       0 |    1.16 | 11-13,25-761      
+  NavbarElements.tsx |     100 |      100 |     100 |     100 |                   
+  darkMode.tsx       |   46.15 |    21.42 |      50 |   46.15 | 10-17             
+ src/pages           |    3.73 |     1.88 |    1.08 |    3.83 |                   
+  BasicPage.tsx      |    1.33 |        0 |       0 |    1.35 | 10-352            
+  DetailedPage.tsx   |    1.12 |        0 |       0 |    1.16 | 10-12,24-762      
   ResultsPage.tsx    |   16.66 |        0 |       0 |   16.66 | 10-19             
-  homePage.tsx       |   66.66 |      100 |   33.33 |   66.66 | 21-28             
+  homePage.tsx       |   66.66 |      100 |   33.33 |   66.66 | 20-27             
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.044 s
+Time:        3.704 s
 Ran all test suites.
