@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (70 ms)
+  ✕ renders learn react link (69 ms)
 
   ● renders learn react link
 
@@ -75,11 +75,16 @@ FAIL src/App.test.tsx
           [36m>[39m
             [0mTake the quiz that best suits your needs and worry no longer![0m
           [36m</div>[39m
-          [36m<a[39m
-            [33mhref[39m=[32m"#/#quiz-descs"[39m
-          [36m>[39m
-            [0mFind your quiz![0m
-          [36m</a>[39m
+          [36m<div>[39m
+            [0m [0m
+            [36m<button[39m
+              [33mclass[39m=[32m"btn btn-primary btn-lg"[39m
+              [33mstyle[39m=[32m"margin-bottom: 350px; width: 200px; height: 80px; font-size: 1.5vw;"[39m
+              [33mtype[39m=[32m"button"[39m
+            [36m>[39m
+              [0mFind your quiz![0m
+            [36m</button>[39m
+          [36m</div>[39m
         [36m</div>[39m
         [36m<div[39m
           [33mid[39m=[32m"quiz-descs"[39m
@@ -239,7 +244,7 @@ go away.[0m
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   11.79 |     6.06 |     3.8 |   12.04 |                   
+All files            |   11.76 |     6.06 |    3.77 |   12.01 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-20              
@@ -248,14 +253,14 @@ All files            |   11.79 |     6.06 |     3.8 |   12.04 |
   Navbar.tsx         |     100 |      100 |     100 |     100 |                   
   NavbarElements.tsx |     100 |      100 |     100 |     100 |                   
   darkMode.tsx       |   46.15 |    21.42 |      50 |   46.15 | 10-17             
- src/pages           |    6.95 |     4.38 |    1.01 |    7.11 |                   
+ src/pages           |    6.93 |     4.38 |       1 |    7.09 |                   
   BasicPage.tsx      |    1.33 |        0 |       0 |    1.35 | 10-352            
   DetailedPage.tsx   |    1.12 |        0 |       0 |    1.16 | 10-12,24-762      
-  ResultsPage.tsx    |   14.81 |       20 |       0 |   14.81 | 11-106            
-  homePage.tsx       |   63.63 |       75 |   33.33 |   63.63 | 22-29,77-82       
+  ResultsPage.tsx    |   14.81 |       20 |       0 |   14.81 | 11-107            
+  homePage.tsx       |   60.86 |       75 |      25 |   60.86 | 21-28,76-81,92    
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.682 s
+Time:        3.868 s
 Ran all test suites.
