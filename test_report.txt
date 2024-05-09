@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (71 ms)
+  ✕ renders learn react link (70 ms)
 
   ● renders learn react link
 
@@ -129,7 +129,7 @@ FAIL src/App.test.tsx
             [33mclass[39m=[32m"quiz-data-text"[39m
           [36m>[39m
             [36m<p>[39m
-              [0mCareer quizzes are proven to help the masses achieve thier goals and secure professional success. Money can buy happiness, but only purpose can bring fulfillment.[0m
+              [0mSee what other people are saying about their CareerNav.com results![0m
             [36m</p>[39m
           [36m</div>[39m
           [36m<div[39m
@@ -147,20 +147,17 @@ FAIL src/App.test.tsx
                 [36m<p[39m
                   [33mstyle[39m=[32m"color: rgb(56, 110, 45);"[39m
                 [36m>[39m
-                  [0m"I Loved It!" [0m
-                  [0m0[0m
+                  [0m"I Loved It!"[0m
                 [36m</p>[39m
                 [36m<p[39m
                   [33mstyle[39m=[32m"color: rgb(219, 213, 44);"[39m
                 [36m>[39m
                   [0m"It was alright."[0m
-                  [0m0[0m
                 [36m</p>[39m
                 [36m<p[39m
                   [33mstyle[39m=[32m"color: rgb(179, 43, 43);"[39m
                 [36m>[39m
                   [0m"I'm not so impressed."[0m
-                  [0m0[0m
                 [36m</p>[39m
               [36m</div>[39m
             [36m</div>[39m
@@ -260,5 +257,5 @@ All files            |   11.79 |     6.06 |     3.8 |   12.04 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.003 s
+Time:        3.682 s
 Ran all test suites.
