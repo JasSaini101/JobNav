@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (65 ms)
+  ✕ renders learn react link (68 ms)
 
   ● renders learn react link
 
@@ -12,48 +12,55 @@ FAIL src/App.test.tsx
     Ignored nodes: comments, script, style
     [36m<body>[39m
       [36m<div>[39m
-        [36m<nav[39m
-          [33mclass[39m=[32m"sc-jTQCzO OFLS"[39m
-        [36m>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"site-title"[39m
+        [36m<div>[39m
+          [36m<nav[39m
+            [33mclass[39m=[32m"sc-jTQCzO djJXUZ"[39m
           [36m>[39m
-            [36m<p>[39m
-              [0mJobNav.com[0m
-            [36m</p>[39m
-          [36m</div>[39m
-          [36m<button[39m
-            [33mclass[39m=[32m"darkModeToggle"[39m
-            [33mstyle[39m=[32m"height: 30px; width: 100px; border-radius: 15px; background-color: black; color: white;"[39m
-          [36m>[39m
-            [0mLight Mode[0m
-          [36m</button>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"sc-qZrbh kDYwWS"[39m
-          [36m>[39m
-            [36m<a[39m
-              [33maria-current[39m=[32m"page"[39m
-              [33mclass[39m=[32m"sc-gLLuof dvRcey active"[39m
-              [33mhref[39m=[32m"#/"[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"site-title"[39m
             [36m>[39m
-              [0mHome Page[0m
-            [36m</a>[39m
-            [36m<a[39m
-              [33mclass[39m=[32m"sc-gLLuof dvRcey"[39m
-              [33mhref[39m=[32m"#/BasicPage"[39m
+              [36m<p>[39m
+                [0mJobNav.com[0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mstyle[39m=[32m"display: flex; justify-content: center; align-items: center;"[39m
             [36m>[39m
-              [0mBasic Page[0m
-            [36m</a>[39m
-            [36m<a[39m
-              [33mclass[39m=[32m"sc-gLLuof dvRcey"[39m
-              [33mhref[39m=[32m"#/DetailedPage"[39m
-            [36m>[39m
-              [0mDetailed Page[0m
-            [36m</a>[39m
-          [36m</div>[39m
-        [36m</nav>[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"darkModeToggle"[39m
+                [33mstyle[39m=[32m"height: 30px; width: 100px; border-radius: 15px; background-color: white; border-color: black; color: white;"[39m
+              [36m>[39m
+                [0m☀️[0m
+              [36m</button>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"sc-qZrbh kDYwWS"[39m
+              [36m>[39m
+                [36m<a[39m
+                  [33maria-current[39m=[32m"page"[39m
+                  [33mclass[39m=[32m"sc-gLLuof bXmvlh active"[39m
+                  [33mhref[39m=[32m"#/"[39m
+                [36m>[39m
+                  [0mHome Page[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"sc-gLLuof bXmvlh"[39m
+                  [33mhref[39m=[32m"#/BasicPage"[39m
+                [36m>[39m
+                  [0mBasic Page[0m
+                [36m</a>[39m
+                [36m<a[39m
+                  [33mclass[39m=[32m"sc-gLLuof bXmvlh"[39m
+                  [33mhref[39m=[32m"#/DetailedPage"[39m
+                [36m>[39m
+                  [0mDetailed Page[0m
+                [36m</a>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</nav>[39m
+        [36m</div>[39m
         [36m<div[39m
           [33mclass[39m=[32m"splash-container"[39m
+          [33mstyle[39m=[32m"display: flex; justify-content: end; align-items: center; flex-direction: column;"[39m
         [36m>[39m
           [36m<img[39m
             [33malt[39m=[32m"businessMountains"[39m
@@ -79,7 +86,7 @@ FAIL src/App.test.tsx
             [0m [0m
             [36m<button[39m
               [33mclass[39m=[32m"btn btn-primary btn-lg"[39m
-              [33mstyle[39m=[32m"margin-bottom: 350px; width: 200px; height: 80px; font-size: 1.5vw;"[39m
+              [33mstyle[39m=[32m"width: 100%; height: 80%; font-size: 80%;"[39m
               [33mtype[39m=[32m"button"[39m
             [36m>[39m
               [0mFind your quiz![0m
@@ -198,13 +205,17 @@ FAIL src/App.test.tsx
         [36m<div[39m
           [33mclass[39m=[32m"app-footer"[39m
         [36m>[39m
-          [36m<p>[39m
+          [36m<p[39m
+            [33mstyle[39m=[32m"padding-top: 8px;"[39m
+          [36m>[39m
             [0mJobnav.com©[0m
           [36m</p>[39m
           [36m<p>[39m
             [0mDeveloped by Saini, Le, Torres, and Walsh[0m
           [36m</p>[39m
-          [36m<p>[39m
+          [36m<p[39m
+            [33mstyle[39m=[32m"padding-bottom: 8px;"[39m
+          [36m>[39m
             [0mFor more information, email jassaini@udel.edu[0m
           [36m</p>[39m
         [36m</div>[39m
@@ -244,24 +255,24 @@ go away.[0m
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |   11.78 |     6.06 |    3.73 |   12.02 |                   
+All files            |   11.81 |     6.15 |    3.73 |   12.05 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 8-20              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/components      |   70.37 |    21.42 |      50 |   70.37 |                   
+ src/components      |   73.07 |       25 |      50 |   73.07 |                   
   Navbar.tsx         |     100 |      100 |     100 |     100 |                   
   NavbarElements.tsx |     100 |      100 |     100 |     100 |                   
-  darkMode.tsx       |   46.15 |    21.42 |      50 |   46.15 | 10-17             
+  darkMode.tsx       |      50 |       25 |      50 |      50 | 10-16             
   loader.tsx         |      50 |      100 |       0 |      50 | 4                 
  src/pages           |    6.79 |     4.38 |       1 |    6.95 |                   
   BasicPage.tsx      |    1.29 |        0 |       0 |    1.31 | 11-336            
-  DetailedPage.tsx   |    1.09 |        0 |       0 |    1.13 | 10-12,25-776      
+  DetailedPage.tsx   |    1.09 |        0 |       0 |    1.13 | 10-12,25-782      
   ResultsPage.tsx    |   14.81 |       20 |       0 |   14.81 | 11-107            
   homePage.tsx       |   60.86 |       75 |      25 |   60.86 | 19-25,38-43,54    
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.645 s
+Time:        3.745 s
 Ran all test suites.
