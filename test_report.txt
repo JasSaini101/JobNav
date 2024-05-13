@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (65 ms)
+  ✕ renders learn react link (68 ms)
 
   ● renders learn react link
 
@@ -82,11 +82,13 @@ FAIL src/App.test.tsx
           [36m>[39m
             [0mTake the quiz that best suits your needs and worry no longer![0m
           [36m</div>[39m
-          [36m<div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"splash-button"[39m
+          [36m>[39m
             [0m [0m
             [36m<button[39m
               [33mclass[39m=[32m"btn btn-primary btn-lg"[39m
-              [33mstyle[39m=[32m"width: 100%; height: 80%; font-size: 80%;"[39m
+              [33mstyle[39m=[32m"width: 100%; height: 80%; font-size: 2vw; background-color: white; color: rgb(33, 72, 197); border: 4px solid rgb(33, 72, 197);"[39m
               [33mtype[39m=[32m"button"[39m
             [36m>[39m
               [0mFind your quiz![0m
@@ -135,70 +137,84 @@ FAIL src/App.test.tsx
           [36m</a>[39m
         [36m</div>[39m
         [36m<div[39m
-          [33mclass[39m=[32m"quiz-data-container"[39m
+          [33mclass[39m=[32m"quiz-data-row"[39m
         [36m>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"quiz-data-text"[39m
-          [36m>[39m
-            [36m<p>[39m
-              [0mSee what other people are saying about their JobNav.com results![0m
-            [36m</p>[39m
-          [36m</div>[39m
-          [36m<div[39m
-            [33mclass[39m=[32m"quiz-data-graph"[39m
+            [33mclass[39m=[32m"quiz-data-container"[39m
           [36m>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"piechart"[39m
+              [33mclass[39m=[32m"quiz-data-text"[39m
+            [36m>[39m
+              [36m<p>[39m
+                [0mSee what other people are saying about their JobNav.com results![0m
+              [36m</p>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"quiz-data-graph"[39m
             [36m>[39m
               [36m<div[39m
-                [33mstyle[39m=[32m"width: 300px; height: 300px; border-radius: 50%;"[39m
-              [36m/>[39m
-              [36m<div[39m
-                [33mclass[39m=[32m"legend"[39m
+                [33mclass[39m=[32m"piechart"[39m
               [36m>[39m
-                [36m<p[39m
-                  [33mstyle[39m=[32m"color: rgb(56, 110, 45);"[39m
+                [36m<div[39m
+                  [33mstyle[39m=[32m"width: 300px; height: 300px; border-radius: 50%;"[39m
+                [36m/>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"legend"[39m
                 [36m>[39m
-                  [0m"I Loved It!"[0m
-                [36m</p>[39m
-                [36m<p[39m
-                  [33mstyle[39m=[32m"color: rgb(219, 213, 44);"[39m
-                [36m>[39m
-                  [0m"It was alright."[0m
-                [36m</p>[39m
-                [36m<p[39m
-                  [33mstyle[39m=[32m"color: rgb(179, 43, 43);"[39m
-                [36m>[39m
-                  [0m"I'm not so impressed."[0m
-                [36m</p>[39m
+                  [36m<p[39m
+                    [33mstyle[39m=[32m"color: rgb(56, 110, 45);"[39m
+                  [36m>[39m
+                    [0m"I Loved It!"[0m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mstyle[39m=[32m"color: rgb(219, 213, 44);"[39m
+                  [36m>[39m
+                    [0m"It was alright."[0m
+                  [36m</p>[39m
+                  [36m<p[39m
+                    [33mstyle[39m=[32m"color: rgb(179, 43, 43);"[39m
+                  [36m>[39m
+                    [0m"I'm not so impressed."[0m
+                  [36m</p>[39m
+                [36m</div>[39m
               [36m</div>[39m
+              [36m<p>[39m
+                [0m~All real data collected on our site~[0m
+              [36m</p>[39m
             [36m</div>[39m
-            [36m<p>[39m
-              [0m~All real data collected on our site~[0m
-            [36m</p>[39m
           [36m</div>[39m
         [36m</div>[39m
-        [36m<form[39m
-          [33mclass[39m=[32m""[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"apikey-container-container"[39m
         [36m>[39m
-          [36m<label[39m
-            [33mclass[39m=[32m"form-label"[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"apikey-container"[39m
           [36m>[39m
-            [0mAPI Key:[0m
-          [36m</label>[39m
-          [36m<input[39m
-            [33mclass[39m=[32m"form-control"[39m
-            [33mplaceholder[39m=[32m"Insert API Key Here"[39m
-            [33mtype[39m=[32m"password"[39m
-          [36m/>[39m
-          [36m<br />[39m
-          [36m<button[39m
-            [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
-            [33mtype[39m=[32m"button"[39m
-          [36m>[39m
-            [0mSubmit[0m
-          [36m</button>[39m
-        [36m</form>[39m
+            [36m<form[39m
+              [33mclass[39m=[32m""[39m
+              [33mstyle[39m=[32m"margin-top: 10px;"[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-label"[39m
+              [36m>[39m
+                [0mAPI Key:[0m
+              [36m</label>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"form-control"[39m
+                [33mplaceholder[39m=[32m"Insert API Key Here"[39m
+                [33mtype[39m=[32m"password"[39m
+              [36m/>[39m
+              [36m<br />[39m
+              [36m<button[39m
+                [33mclass[39m=[32m"Submit-Button btn btn-primary"[39m
+                [33mstyle[39m=[32m"margin-bottom: 30px;"[39m
+                [33mtype[39m=[32m"button"[39m
+              [36m>[39m
+                [0mSubmit[0m
+              [36m</button>[39m
+            [36m</form>[39m
+          [36m</div>[39m
+        [36m</div>[39m
         [36m<div[39m
           [33mclass[39m=[32m"App"[39m
         [36m/>[39m
@@ -266,13 +282,13 @@ All files            |   11.81 |     6.15 |    3.73 |   12.05 |
   darkMode.tsx       |      50 |       25 |      50 |      50 | 10-16             
   loader.tsx         |      50 |      100 |       0 |      50 | 4                 
  src/pages           |    6.79 |     4.38 |       1 |    6.95 |                   
-  BasicPage.tsx      |    1.29 |        0 |       0 |    1.31 | 11-336            
+  BasicPage.tsx      |    1.29 |        0 |       0 |    1.31 | 12-347            
   DetailedPage.tsx   |    1.09 |        0 |       0 |    1.13 | 10-12,25-782      
   ResultsPage.tsx    |   14.81 |       20 |       0 |   14.81 | 11-107            
-  homePage.tsx       |   60.86 |       75 |      25 |   60.86 | 19-25,38-43,54    
+  homePage.tsx       |   60.86 |       75 |      25 |   60.86 | 20-26,39-44,55    
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.595 s
+Time:        3.653 s
 Ran all test suites.
