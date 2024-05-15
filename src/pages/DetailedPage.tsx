@@ -762,13 +762,12 @@ const DetailedPage = () => {
 					"content": getResponses(), //calls the function that gets the description
 					}
 				],
-				temperature: 0.8,
+				temperature: 0,
 				max_tokens: 512,//should be 512
 				top_p: 1,
 				});
 				
-				let gptresponse:string[] = parseAnswers(response.choices[0].message.content);
-				localStorage.setItem("GPTresponse", JSON.stringify(gptresponse));
+				localStorage.setItem("GPTresponse", JSON.stringify( parseAnswers(response.choices[0].message.content)));
 				setIsLoading(false);
 				window.location.href = "/starter_helpi/#/ResultsPage/"; 
 			}

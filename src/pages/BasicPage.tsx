@@ -7,7 +7,6 @@ import "./basicPage.css"
 import LoaderComp from "../components/loader";
 // import { darkMode } from "../components/darkMode"
 
-
 const BasicPage = () => {
 	const [response, setResponse] = useState<(number)[]>
 	([-1, -1, -1, -1, -1, -1, -1, -1]) //initializes the responses to -1 so no radio button is checked
@@ -95,27 +94,27 @@ const BasicPage = () => {
 		async function runGPT() { //Creates conversation with the GPT-4 model
 			try{
 				setIsLoading(true);
-				const response = await openai.chat.completions.create({
+
+				let response = await openai.chat.completions.create({
 				model: "gpt-4-turbo",
 				messages: [
 					{
 					"role": "system",
-					"content": "You are a helpful assistant that will generate a potential career path for the user based on their preferences. You will also generate three other career paths the user may like. Please complete this in this format, with each field contained in quotes and separated by commas: [Main Career Path, very Detailed reasoning for Main Career Path with at least 4 sentences, Other Career Path 1, Reasoning for Other Career Path 1, Other Career Path 2, Reasoning for Other Career Path 2, Other Career Path 3, Reasoning for Other Career Path 3]"
-					//What we want GPT to do
+					"content": "You are a helpful assistant that will generate a potential career path for the user based on a few hypothetical situations. You will also generate three other career paths the user may like.Please complete this in this format, with each field contained in quotes and separated by commas:[Main Career Path, very Detailed reasoning for Main Career Path with at least 4 sentences, Other Career Path 1, Reasoning for Other Career Path 1, Other Career Path 2, Reasoning for Other Career Path 2, Other Career Path 3, Reasoning for Other Career Path 3]" //What we want GPT to do
 					},
 					{
 					"role": "user",
 					"content": getResponses(), //calls the function that gets the description
 					}
-				],
-				temperature: 0.8,
-				max_tokens: 512, //should be 512
-				top_p: 1,
-				});
-				let gptresponse:string[] = parseAnswers(response.choices[0].message.content);
-				localStorage.setItem("GPTresponse", JSON.stringify(gptresponse));
-				setIsLoading(false);
-				window.location.href = "/starter_helpi/#/ResultsPage/"; 
+			],
+			temperature: 0,
+			max_tokens: 512, //should be 512
+			top_p: 1,
+			});
+
+			localStorage.setItem("GPTresponse", JSON.stringify( parseAnswers(response.choices[0].message.content)));
+			setIsLoading(false);
+			window.location.href = "/starter_helpi/#/ResultsPage/"; 
 			}
 			catch(e){ //catches any errors that may occur with an invalid API key
 				setIsLoading(false);
