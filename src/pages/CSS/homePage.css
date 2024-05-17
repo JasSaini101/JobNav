@@ -47,26 +47,6 @@
     animation-delay: 5s;
 }
 
-
-
-/* .splash-container a {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 85%;
-    font-size: 20px;
-    background-color: white;
-    border: solid 1px rgb(33, 72, 197);
-    color: rgb(33, 72, 197);
-    border-radius: 5px;
-    padding: 3px 7px;
-    text-decoration: none;
-    &:hover {
-        background-color: rgb(33, 72, 197);
-        color: white;
-    }
-} */
-
 #quiz-descs {
     scroll-margin-block-start: 110px;
     scroll-margin-block-end: 110px;
@@ -78,7 +58,6 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 20px;
-    /* background-color: #1b5184; */
 }
 
 .quiz-desc {
@@ -90,7 +69,6 @@
     overflow: overlay;
     box-shadow: 10px 5px 5px rgb(21, 21, 21);
     color: rgb(33, 72, 197);
-    /* background-color: white; */
    
     &:hover {
         margin-top: -9px;
@@ -130,7 +108,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: #1b5184; */
 } 
 
 .quiz-data-container {
@@ -142,8 +119,6 @@
     justify-content: space-around;
     box-shadow: 10px 5px 5px rgb(21, 21, 21);
     align-items: center;
-    /* background-color: white; */
-    /* color: black; */
 }
 
 .quiz-data-text {
@@ -181,7 +156,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: #1b5184; */
 } 
 
 .apikey-container { 
@@ -205,4 +179,3 @@
     --primary-color: rgb(33, 72, 197);
 }
 
-/* style={{background: (darkMode ? "black" : "white"), color: (darkMode ? "white" : "black")}} */
