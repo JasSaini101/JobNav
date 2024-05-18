@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/starter_helpi/" element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
-        <Route path="/detailedPage" element={<DetailedPage />} />
+        <Route path="/DetailedPage" element={<DetailedPage />} />
         <Route path="/BasicPage" element={<BasicPage/>}/>
         <Route path="/ResultsPage" element={<ResultsPage/>}/>
         <Route path="/starter_helpi/#/ResultsPage" element={<ResultsPage />} />
