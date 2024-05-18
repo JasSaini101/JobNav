@@ -6,7 +6,7 @@ in the text box provided. The API key is stored in local storage and is used to 
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import splash from "../../images/businessman.png"
-import '../CSS/homePage.css';
+import '../CSS/HomePage.css';
 import { HomeLink } from "../../components/NavbarElements"
 import { reviews } from "./ResultsPage"
 
