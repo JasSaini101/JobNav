@@ -4,7 +4,7 @@ It will display the top 3 career paths that the user should consider based on th
 It will also have a review system that will allow the user to rate the recommendations that they received. */
 
 import { useState } from 'react';
-import '../CSS/resultsPage.css';
+import '../CSS/ResultsPage.css';
 import { Button, Form } from 'react-bootstrap';
 
 
