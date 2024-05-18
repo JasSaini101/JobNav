@@ -39,7 +39,6 @@ const ResultsPage = () => {
         const combinedReviews = [currReviews[0] + storedReviews[0], currReviews[1] + storedReviews[1], currReviews[2] + storedReviews[2]];
         localStorage.setItem(saveReviewData, JSON.stringify(combinedReviews));
         window.location.reload(); 
-        
     }
 
     function changeReview(newNumber: number) {
