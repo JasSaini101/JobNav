@@ -149,7 +149,7 @@
     text-align: center;
 }
 
-.apikey-container-container {
+.apikey-container-row {
     display: flex;
     justify-content: center;
     align-items: center;

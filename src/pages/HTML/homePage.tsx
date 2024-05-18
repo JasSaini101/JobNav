@@ -91,7 +91,7 @@ import { reviews } from "./ResultsPage"
                 </div>
             </div>
         </div>
-        <div className="apikey-container-container">
+        <div className="apikey-container-row">
             <div className="apikey-container">
             <Form style={{marginTop: "10px"}}>
                     <Form.Label>API Key:</Form.Label>
