@@ -6,6 +6,7 @@ It will also have a review system that will allow the user to rate the recommend
 import { useState } from 'react';
 import '../CSS/ResultsPage.css';
 import { Button, Form } from 'react-bootstrap';
+import { sleep } from 'openai/core';
 
 
 export function parseAnswers(answers: string|null): string[] { //this function is to parse the GPT response from the local storage
@@ -46,7 +47,6 @@ const ResultsPage = () => {
         const combinedReviews = [currReviews[0] + storedReviews[0], currReviews[1] + storedReviews[1], currReviews[2] + storedReviews[2]];
         localStorage.setItem(saveReviewData, JSON.stringify(combinedReviews));
         setReview(-2);
-        window.location.reload(); 
     }
 
     function changeReview(newNumber: number) {
@@ -129,8 +129,8 @@ const ResultsPage = () => {
                 />
             </div>
                 <Button className="Submit-Button" onClick={() => {storeReviews(); changeReview(-2);}} disabled={review=== -1 || review === -2}>Submit</Button>
+                <div className="reviewThanks"> {review === -2? "Thanks for reviewing JobNav.com!" : ""}</div>
 		</div>
-        
         </>
     )
 
