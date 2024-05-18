@@ -1,3 +1,8 @@
+/* This page is the home page of our website. It contains a brief description of the website and its purpose, 
+as well as two buttons that link to the basic and detailed quiz pages. It also contains a pie chart that 
+displays the results of the reviews left by users who have taken the quiz. The user can also input their API key 
+in the text box provided. The API key is stored in local storage and is used to access the OpenAI API. */
+
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import splash from "../../images/businessman.png"
@@ -54,7 +59,7 @@ import { reviews } from "./ResultsPage"
             <div className="splash-button"> <Button size="lg" style={{width: "100%", height:"80%", fontSize: "2vw", backgroundColor: "white", color: "rgb(33, 72, 197)", border: "4px solid rgb(33, 72, 197)"}} onClick={() => window.scrollTo({top: 990, behavior: "auto"})}>Find your quiz!</Button></div>
         </div>
         <div id="quiz-descs"></div>
-        <div className="quiz-desc-container">
+        <div className="quiz-desc-container" data-testid="quiz-desc-holder">
             <HomeLink to="/BasicPage">
                 <div className="quiz-desc">
                     <h3>Basic Quiz</h3>
@@ -92,7 +97,7 @@ import { reviews } from "./ResultsPage"
             </div>
         </div>
         <div className="apikey-container-row">
-            <div className="apikey-container">
+            <div className="apikey-container" data-testid="api-container">
             <Form style={{marginTop: "10px"}}>
                     <Form.Label>API Key:</Form.Label>
                     <Form.Control role="textbox"type="password" placeholder="Insert API Key Here" onChange={changeKey}></Form.Control>

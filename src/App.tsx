@@ -1,6 +1,7 @@
+/* This is the main file for the application. It contains the routing for the different pages of the application. */
+
 import './App.css';
 import Navbar from "./components/Navbar";
-
 import {
     HashRouter as Router,
     Routes,

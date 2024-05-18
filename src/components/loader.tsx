@@ -1,3 +1,6 @@
+/* This is a simple loader component that displays a spinning animation when the page is loading. 
+Wheter the page is loading or not is handled in another file*/
+
 import { TailSpin } from "react-loader-spinner";
 
 const LoaderComp = () => {
