@@ -6,10 +6,10 @@ responses and generates careers based on them. The user is then redirected to th
 import { useEffect, useState } from "react";
 import { Form, Alert, Stack, ProgressBar, Offcanvas} from "react-bootstrap";
 import OpenAI from "openai";
-import { key } from "./homePage"
+import { key } from "./HomePage"
 import { parseAnswers } from "./ResultsPage";
-import "../CSS/basicPage.css"
-import LoaderComp from "../../components/loader";
+import "../CSS/BasicPage.css"
+import LoaderComp from "../../components/Loader";
 
 
 const BasicPage = () => {
