@@ -18,8 +18,7 @@
 .question-row{
     display:flex;
     justify-content: space-around;
-    margin-top:35px;
-    margin-bottom: 100px;
+    margin: 35px 0 100px 0;
 }
 
 .question {
@@ -31,8 +30,7 @@
 
 .QuestionNum {
     font-size: 22px;
-    margin-left: 12px;
-    margin-top: 2px;
+    margin: 2px 0 0 2px;
 }
 
 .radio-container {
