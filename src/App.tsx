@@ -8,7 +8,7 @@ import {
     Route,
 } from "react-router-dom";
 import DetailedPage from './pages/HTML/DetailedPage';
-import HomePage from './pages/HTML/homePage';
+import HomePage from './pages/HTML/HomePage';
 import BasicPage from './pages/HTML/BasicPage';
 import ResultsPage from './pages/HTML/ResultsPage';
 
@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/starter_helpi/" element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
-        <Route path="/detailedPage" element={<DetailedPage />} />
+        <Route path="/DetailedPage" element={<DetailedPage />} />
         <Route path="/BasicPage" element={<BasicPage/>}/>
         <Route path="/ResultsPage" element={<ResultsPage/>}/>
         <Route path="/starter_helpi/#/ResultsPage" element={<ResultsPage />} />
