@@ -181,8 +181,8 @@ const BasicPage = () => {
 		</div>
 		<div className="question-row">
 		<div className="question">
-			<span className="QuestionNum">#1</span> 
-			<span className="radio-container">
+			<div className="QuestionNum">#1</div> 
+			<div className="radio-container">
 				<Stack  className="stack" gap={3}>
 				<Form.Check 
 						type="radio"
@@ -199,11 +199,11 @@ const BasicPage = () => {
 						onChange={() => updateChoice(1)}
 						checked={response[0] === 0}/>
 				</Stack>
-			</span>
+			</div>
 		</div>
 		<div className="question">
-			<span className="QuestionNum">#2</span> 
-			<span className="radio-container">
+			<div className="QuestionNum">#2</div> 
+			<div className="radio-container">
 			<Stack className="stack" gap={3}> 
 			<Form.Check 
 					type="radio"
@@ -220,11 +220,11 @@ const BasicPage = () => {
 					onChange={() => updateChoice(3)}
 					checked={response[1] === 0}/>
 			</Stack>
-			</span>
+			</div>
 		</div>
 		<div className="question">
-			<span className="QuestionNum">#3</span> 
-			<span className="radio-container">
+			<div className="QuestionNum">#3</div> 
+			<div className="radio-container">
 				<Stack className="stack" gap={3}> 
 				<Form.Check 
 					type="radio"
@@ -241,11 +241,11 @@ const BasicPage = () => {
 					onChange={() => updateChoice(5)}
 					checked={response[2] === 0}/>
 				</Stack>
-			</span>
+			</div>
 		</div>
 		<div className="question">
-			<span className="QuestionNum">#4</span> 
-			<span className="radio-container">
+			<div className="QuestionNum">#4</div> 
+			<div className="radio-container">
 				<Stack className="stack" gap={3}> 
 				<Form.Check 
 					type="radio"
@@ -262,12 +262,13 @@ const BasicPage = () => {
 					onChange={() => updateChoice(7)}
 					checked={response[3] === 0}/>
 				</Stack>
-			</span>	
+			</div>	
 		</div>
 		</div>
 		<div className="question-row">
 			<div className="question">
-				<span className="QuestionNum">#5</span> <span>
+				<div className="QuestionNum">#5</div> 
+				<div className="radio-container">
 				<Stack className="stack" gap={3}>
 				<Form.Check 
 							type="radio"
@@ -284,10 +285,11 @@ const BasicPage = () => {
 							onChange={() => updateChoice(9)}
 							checked={response[4] === 0}/>
 				</Stack>
-				</span>	
+				</div>	
 			</div>	
 			<div className="question">		
-				<span className="QuestionNum">#6</span> <span className="basic-radials">
+				<div className="QuestionNum">#6</div> 
+				<div className="radio-container">
 				<Stack  className="stack" gap={3}> 
 						<Form.Check 
 							type="radio"
@@ -308,10 +310,11 @@ const BasicPage = () => {
 					
 						/>
 					</Stack>
-				</span>
+				</div>
 			</div>
 			<div className="question">
-				<span className="QuestionNum">#7</span> <span>
+				<div className="QuestionNum">#7</div> 
+				<div className="radio-container">
 				<Stack className="stack" gap={3} > 
 				<Form.Check 
 							type="radio"
@@ -328,10 +331,11 @@ const BasicPage = () => {
 							onChange={() => updateChoice(13)}
 							checked={response[6] === 0}/>
 				</Stack>
-				</span>	
+				</div>	
 			</div>
 			<div className="question">
-			<span className="QuestionNum">#8</span> <span>
+			<div className="QuestionNum">#8</div> 
+			<div className="radio-container">
 			<Stack className="stack" gap={3}> 
 			<Form.Check 
 						type="radio"
@@ -349,7 +353,7 @@ const BasicPage = () => {
 						onChange={() => updateChoice(15)}
 						checked={response[7] === 0}/>
 					</Stack>
-				</span>	
+				</div>	
 			</div>
 			</div>
 			
