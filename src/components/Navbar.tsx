@@ -3,7 +3,7 @@ Also imports the dark mode toggle button to display it in the bar and has our we
 
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import './Navbar.css';
-import { DarkModeToggle } from "./darkMode";
+import { DarkModeToggle } from "./DarkMode";
  
 const Navbar = () => {
     return (
