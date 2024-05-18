@@ -64,6 +64,13 @@
     font-size: 20px;
 }
 
+.reviewThanks{
+    text-align:center;
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+
+}
+
 .Submit-Button{
     margin-bottom: 10px
 }

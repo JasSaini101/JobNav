@@ -8,7 +8,7 @@ import {
     Route,
 } from "react-router-dom";
 import DetailedPage from './pages/HTML/DetailedPage';
-import HomePage from './pages/HTML/homePage';
+import HomePage from './pages/HTML/HomePage';
 import BasicPage from './pages/HTML/BasicPage';
 import ResultsPage from './pages/HTML/ResultsPage';
 
