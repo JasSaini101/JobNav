@@ -1,3 +1,20 @@
+.quiz-desc-header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-desc-header {
+    margin: 20px;
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    border: solid 1px grey;
+    text-align: center;
+    border-radius: 5px;
+    overflow: overlay;
+    box-shadow: 10px 5px 5px rgb(86, 86, 86);
+}
+
 .button{
     background-color: blue;
     color: white;
@@ -7,21 +24,27 @@
     border-radius: 16px;
 }
 
-.question-box {
-    display:flex;
-    gap:10px;
-    padding: 16px 24px;
-    margin-bottom:50px;
-}
-h3 { /* Question headers*/
-    margin-left: 25px;
-}
-
 .detailed-progress{
     margin-left:100px;
     margin-right: 100;
     margin-bottom:20px;
     margin-right: 100px
+}
+
+h3 { /* Question headers*/
+    margin-left: 25px;
+}
+
+.questionPrompt{
+    font-weight:bold;
+    margin-left: 25px;
+}
+
+.question-box {
+    display:flex;
+    gap:10px;
+    padding: 16px 24px;
+    margin-bottom:50px;
 }
 
 .answer-box{
@@ -30,11 +53,6 @@ h3 { /* Question headers*/
     margin-left: -10px;
 }
 
-.questionPrompt{
-    font-weight:bold;
-    margin-left: 25px;
-    
-}
 .reg-radio{
     display: flex;
     flex-direction: row;
@@ -58,23 +76,6 @@ h3 { /* Question headers*/
 .page-color{
     background-color: var(--background-color);
     color: var(--text-color);
-}
-
-.quiz-desc-header-container {
-    display: flex;
-    justify-content: center;
-}
-
-.quiz-desc-header {
-    margin: 20px;
-    width: 95%;
-    height: auto;
-    padding: 20px;
-    border: solid 1px grey;
-    text-align: center;
-    border-radius: 5px;
-    overflow: overlay;
-    box-shadow: 10px 5px 5px rgb(86, 86, 86);
 }
 
 .custom-offcanvas{
