@@ -6,7 +6,6 @@ It will also have a review system that will allow the user to rate the recommend
 import { useState } from 'react';
 import '../CSS/ResultsPage.css';
 import { Button, Form } from 'react-bootstrap';
-import { sleep } from 'openai/core';
 
 
 export function parseAnswers(answers: string|null): string[] { //this function is to parse the GPT response from the local storage
