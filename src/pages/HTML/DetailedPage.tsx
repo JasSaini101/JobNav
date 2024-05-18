@@ -1,3 +1,7 @@
+/* This page is the detailed quiz page. It contains 7 questions that the user must answer to get a career path.
+The questions are all multiple choice but have an other option that allows the user to input a custom answer.
+Once all the answers are inputted and the user submits, an OpenAI model generates careers and takes the user to the results page*/
+
 import React, { useEffect, useState } from "react";
 import { Form, ProgressBar, Alert,
 Offcanvas, OffcanvasHeader,OffcanvasTitle, Row, Col, Container} from "react-bootstrap";

@@ -1,3 +1,6 @@
+/* Thiscreates the navbar component that displays a navigation bar with links to different pages of the website. 
+Also imports the dark mode toggle button to display it in the bar and has our websites title*/
+
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 import './Navbar.css';
 import { DarkModeToggle } from "./darkMode";

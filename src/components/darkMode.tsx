@@ -1,3 +1,5 @@
+/* This is a simple dark mode toggle button that changes the background color of the page to black and the text color to white when clicked.*/
+
 import { useState } from "react";
 
 let darkMode = false;

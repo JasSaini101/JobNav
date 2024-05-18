@@ -1,3 +1,8 @@
+/* This page is the basic quiz page of our website. It contains 8 questions that the user can answer 
+by selecting one of two radio buttons. Once the user has answered all the questions, they can click 
+the "Get Answer!" button to get their results. The button creates an OPENAI object that takes the users
+responses and generates careers based on them. The user is then redirected to the results page */
+
 import { useEffect, useState } from "react";
 import { Form, Alert, Stack, ProgressBar, Offcanvas} from "react-bootstrap";
 import OpenAI from "openai";

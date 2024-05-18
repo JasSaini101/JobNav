@@ -1,3 +1,5 @@
+/* This file is used to style the Navbar component. It uses styled-components to style the Navbar. */
+
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
