@@ -7,7 +7,6 @@
     position: relative;
     text-align: center;
     border-bottom: solid 1px grey;
-    
 }
 
 .splash-container div{
@@ -54,10 +53,10 @@
 
 .quiz-desc-container {
     height: 450px;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 20px;
 }
 
 .quiz-desc {
@@ -89,9 +88,8 @@
 }
 
 .text {
-   margin-left: 35px;
-   margin-right: 35px;
-   color: var(--primary-color);
+    margin: 0 35px;
+    color: var(--primary-color);
 }
 
 .quiz-desc Link {
@@ -115,18 +113,18 @@
     border: solid 1px grey;
     border-radius: 2%;
     padding: 30px;
+    box-shadow: 10px 5px 5px rgb(21, 21, 21);
     display: flex;
     justify-content: space-around;
-    box-shadow: 10px 5px 5px rgb(21, 21, 21);
     align-items: center;
 }
 
 .quiz-data-text {
     width: 35%;
     height: 90%;
+    font-size: 36px;
     text-align: center;
     overflow: overlay;
-    font-size: 36px;
 }
 
 .quiz-data-graph .piechart {
@@ -171,9 +169,6 @@
     background-color: var(--background-color);
     color: var(--text-color);
 }
-
-
-
 
 :root {
     --primary-color: rgb(33, 72, 197);
