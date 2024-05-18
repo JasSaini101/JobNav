@@ -31,7 +31,7 @@
     margin-right: 100px
 }
 
-h3 { /* Question headers*/
+h3 { 
     margin-left: 25px;
 }
 
@@ -82,12 +82,3 @@ h3 { /* Question headers*/
     background-color: rgb(33, 33, 56);
     color: white;
 }
-
-/* .progress Button { 
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 16px;
-} */
