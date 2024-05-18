@@ -6,9 +6,9 @@ import React, { useEffect, useState } from "react";
 import { Form, ProgressBar, Alert,
 Offcanvas, OffcanvasHeader,OffcanvasTitle, Row, Col, Container} from "react-bootstrap";
 import OpenAI from "openai";
-import { key } from "./homePage"
-import "../CSS/detailedPage.css";
-import LoaderComp from "../../components/loader";
+import { key } from "./HomePage"
+import "../CSS/DetailedPage.css";
+import LoaderComp from "../../components/Loader";
 import { parseAnswers } from "./ResultsPage";
 
 const QUESTIONSTARTS = //first half of the questions to make response formatting for GPT easier, will add the user's response to the end of the strings
