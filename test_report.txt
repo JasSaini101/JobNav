@@ -2,7 +2,7 @@
 > starter_helpi@0.1.0 test
 > react-scripts test --coverage
 
-PASS src/pages/Tests/resultsPage.test.tsx
+PASS src/pages/Tests/ResultsPage.test.tsx
   ● Console
 
     console.error
@@ -42,11 +42,11 @@ PASS src/pages/Tests/resultsPage.test.tsx
           at fireAnEvent (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
           at HTMLButtonElementImpl.click (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:79:5)
           at HTMLButtonElement.click (/home/runner/work/starter_helpi/starter_helpi/node_modules/jsdom/lib/jsdom/living/generated/HTMLElement.js:110:34)
-          at /home/runner/work/starter_helpi/starter_helpi/src/pages/Tests/resultsPage.test.tsx:85:22
+          at /home/runner/work/starter_helpi/starter_helpi/src/pages/Tests/ResultsPage.test.tsx:85:22
           at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:64:24
           at act (/home/runner/work/starter_helpi/starter_helpi/node_modules/react/cjs/react.development.js:2512:16)
           at /home/runner/work/starter_helpi/starter_helpi/node_modules/@testing-library/react/dist/act-compat.js:63:25
-          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/pages/Tests/resultsPage.test.tsx:84:8)
+          at Object.<anonymous> (/home/runner/work/starter_helpi/starter_helpi/src/pages/Tests/ResultsPage.test.tsx:84:8)
           at Promise.then.completed (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:391:28)
           at new Promise (<anonymous>)
           at callAsyncCircusFn (/home/runner/work/starter_helpi/starter_helpi/node_modules/jest-circus/build/utils.js:316:10)
@@ -102,24 +102,12 @@ PASS src/pages/Tests/resultsPage.test.tsx
       at fireAnEvent (node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
       at HTMLButtonElementImpl.click (node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:79:5)
       at HTMLButtonElement.click (node_modules/jsdom/lib/jsdom/living/generated/HTMLElement.js:110:34)
-      at src/pages/Tests/resultsPage.test.tsx:85:22
+      at src/pages/Tests/ResultsPage.test.tsx:85:22
       at node_modules/@testing-library/react/dist/act-compat.js:64:24
       at act (node_modules/react/cjs/react.development.js:2512:16)
       at node_modules/@testing-library/react/dist/act-compat.js:63:25
-      at Object.<anonymous> (src/pages/Tests/resultsPage.test.tsx:84:8)
+      at Object.<anonymous> (src/pages/Tests/ResultsPage.test.tsx:84:8)
 
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
 PASS src/pages/Tests/homePage.test.tsx
   ● Console
 
@@ -282,6 +270,18 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
@@ -305,5 +305,5 @@ All files            |   21.32 |     13.6 |    13.2 |    21.6 |
 Test Suites: 2 passed, 2 total
 Tests:       16 passed, 16 total
 Snapshots:   0 total
-Time:        5.69 s
+Time:        5.163 s
 Ran all test suites.
