@@ -3,9 +3,15 @@
 > react-scripts test --coverage
 
 PASS src/pages/Tests/homePage.test.tsx
-  ✓ renders introduction text part 1 (65 ms)
-  ✓ renders introduction text part 2 (28 ms)
-  ✓ renders introduction text part 3 (18 ms)
+  ✓ Render Home, Basic Quiz, Detailed Quiz and Results links (210 ms)
+  ✓ Render Dark mode button (19 ms)
+  ✓ renders introduction text part 1 (15 ms)
+  ✓ renders introduction text part 2 (15 ms)
+  ✓ renders introduction text part 3 (12 ms)
+  ✓ Renders the pie chart (11 ms)
+  ✓ Render textbox for API input (17 ms)
+  ✓ Render pie chart legends (19 ms)
+  ✓ Render API Submit Button (26 ms)
 
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
@@ -39,7 +45,7 @@ All files            |    12.5 |      6.5 |     3.8 |   12.77 |
   homePage.tsx       |   60.86 |       75 |      25 |   60.86 | 19-25,38-43,54    
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
-Tests:       3 passed, 3 total
+Tests:       9 passed, 9 total
 Snapshots:   0 total
-Time:        3.672 s
+Time:        4.002 s
 Ran all test suites.
