@@ -108,6 +108,18 @@ PASS src/pages/Tests/resultsPage.test.tsx
       at node_modules/@testing-library/react/dist/act-compat.js:63:25
       at Object.<anonymous> (src/pages/Tests/resultsPage.test.tsx:84:8)
 
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 PASS src/pages/Tests/homePage.test.tsx
   ● Console
 
@@ -270,18 +282,6 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
@@ -296,8 +296,8 @@ All files            |   21.32 |     13.6 |    13.2 |    21.6 |
   darkMode.tsx       |     100 |       75 |     100 |     100 | 11-15             
   loader.tsx         |      50 |      100 |       0 |      50 | 4                 
  src/pages/HTML      |   15.25 |     7.33 |    10.1 |   15.38 |                   
-  BasicPage.tsx      |    1.33 |        0 |       0 |    1.35 | 11-349            
-  DetailedPage.tsx   |    1.24 |        0 |       0 |    1.28 | 22-747            
+  BasicPage.tsx      |    1.33 |        0 |       0 |    1.35 | 11-348            
+  DetailedPage.tsx   |    1.24 |        0 |       0 |    1.28 | 22-746            
   ResultsPage.tsx    |      75 |    35.71 |      80 |   78.78 | 7-9,23-24,61,109  
   homePage.tsx       |   65.21 |       75 |      50 |   65.21 | 19-20,38-43,54    
 ---------------------|---------|----------|---------|---------|-------------------
@@ -305,5 +305,5 @@ All files            |   21.32 |     13.6 |    13.2 |    21.6 |
 Test Suites: 2 passed, 2 total
 Tests:       16 passed, 16 total
 Snapshots:   0 total
-Time:        4.919 s
+Time:        5.69 s
 Ran all test suites.
