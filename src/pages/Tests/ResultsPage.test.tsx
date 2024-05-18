@@ -14,6 +14,20 @@ test('Renders on No Career', () => {
     expect(mainHeading).toBeInTheDocument();
 });
 
+test('Renders Correctly with Career', () => {
+    localStorage.setItem("GPTresponse", JSON.stringify(["Main Career", "Main Career Description", "Subcareer", "Subcareer Description", "Subcareer", "Subcareer Description", "Subcareer", "Subcareer Description"]));
+    render(<ResultsPage />);
+    const mainCareer = screen.getByRole("heading", {name: /Main Career/});
+    const mainCareerDesc = screen.getByText(/Main Career Description/);
+    const subCareers = screen.getAllByRole("heading", {name: /Subcareer/});
+    const subCareerDescs = screen.getAllByText(/Subcareer Description/);
+
+    expect(mainCareer).toBeInTheDocument();
+    expect(mainCareerDesc).toBeInTheDocument();
+    expect(subCareers).toHaveLength(3);
+    expect(subCareerDescs).toHaveLength(3);
+});
+
 test('Renders Review Elements', () => { 
     render(<ResultsPage />);
     
@@ -87,6 +101,7 @@ test('Review Elements Function 2', () => {
 
     expect(reviewButton).toBeDisabled();
     expect(radio1).not.toBeChecked();
+    expect(radio1).toBeDisabled();
 });
 
 export {}

@@ -37,7 +37,7 @@ const ResultsPage = () => {
 
 
     function storeReviews() { //stores the review data in local storage
-        if(review === -1) return;
+        if(review < 0) return;
 
         const currReviews = [...reviews]
         currReviews[review] += 1;
@@ -45,7 +45,7 @@ const ResultsPage = () => {
         const storedReviews = [...pullReviews()]
         const combinedReviews = [currReviews[0] + storedReviews[0], currReviews[1] + storedReviews[1], currReviews[2] + storedReviews[2]];
         localStorage.setItem(saveReviewData, JSON.stringify(combinedReviews));
-        setReview(-1);
+        setReview(-2);
         window.location.reload(); 
     }
 
@@ -101,6 +101,7 @@ const ResultsPage = () => {
 				style={{width:"auto"}}
                 onChange={() => changeReview(0)}
                 checked={review===0}
+                disabled={review===-2}
 				/>
             <Form.Check
                 inline
@@ -112,6 +113,7 @@ const ResultsPage = () => {
                 style={{width:"auto"}}
                 onChange={() => changeReview(1)}
                 checked={review===1}
+                disabled={review===-2}
                 />
             <Form.Check
                 inline
@@ -123,9 +125,10 @@ const ResultsPage = () => {
                 style={{width:"auto"}}
                 onChange={() => changeReview(2)}
                 checked={review===2}
+                disabled={review===-2}
                 />
             </div>
-                <Button className="Submit-Button" onClick={() => {storeReviews(); changeReview(-1);}} disabled={review===-1}>Submit</Button>
+                <Button className="Submit-Button" onClick={() => {storeReviews(); changeReview(-2);}} disabled={review=== -1 || review === -2}>Submit</Button>
 		</div>
         
         </>
