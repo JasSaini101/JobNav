@@ -236,16 +236,18 @@ const DetailedPage = () => {
 
 	return (<>
 	<body className="page-color">
-		<div className="quiz-desc-header">
-			<h1 className="detailed-title">
-				Detailed Quiz
-			</h1>
-			<div className="detailed-info">
-				Welcome! For the detailed quiz, you will answer the statements by 
-				choosing one of the corresponding multiple choice options
-				below or writing your own response! After answering all of the questions you will be able to click the "Get Answer!" button which will 
-				allow you to see the results of you future career.
+		<div className="quiz-desc-header-container">
+			<div className="quiz-desc-header">
+				<h1 className="detailed-title">
+					Detailed Quiz
+				</h1>
+				<div className="detailed-info">
+					Welcome! For the detailed quiz, you will answer the statements by 
+					choosing one of the corresponding multiple choice options
+					below or writing your own response! After answering all of the questions you will be able to click the "Get Answer!" button which will 
+					allow you to see the results of you future career.
 
+				</div>
 			</div>
 		</div>
 			

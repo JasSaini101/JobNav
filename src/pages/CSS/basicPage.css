@@ -1,7 +1,6 @@
 .quiz-desc-header-container {
     display: flex;
     justify-content: center;
-    /* background-color: #1b5184; */
 }
 
 .quiz-desc-header {
@@ -14,8 +13,6 @@
     border-radius: 5px;
     overflow: overlay;
     box-shadow: 10px 5px 5px rgb(21, 21, 21);
-    /* background-color: white; */
-    /* color: black; */
 }
 
 .question-row{
@@ -23,11 +20,9 @@
     justify-content: space-around;
     margin-top:35px;
     margin-bottom: 100px;
-    /* background-color: #1b5184; */
 }
 
 .question {
-    /* background-color: white; */
     /* display: flex;
     justify-content: center;
     align-items: center; */
