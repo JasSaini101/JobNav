@@ -123,8 +123,11 @@
 
 .quiz-data-text {
     width: 35%;
-    height: 90%;
+    height: 320px;
     font-size: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
     overflow: overlay;
 }
@@ -137,12 +140,19 @@
 
 .quiz-data-graph .piechart .legend {
     margin-left: 40px;
+    width: 40%;
+    
 }
 
 .quiz-data-graph .piechart p {
     padding-top: 30px;
     font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
+    overflow: overlay;
+
 }
 
 .quiz-data-graph p {

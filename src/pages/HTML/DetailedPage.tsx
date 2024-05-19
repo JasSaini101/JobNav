@@ -280,7 +280,7 @@ const DetailedPage = () => {
 		</div>	
 
 		<h3>Question 1.</h3>
-		<span className="questionPrompt">You slept through your alarm and barely missed the train to work. The next train isn’t for another 30 minutes, so you’ll definitely be late now. What do you do?</span> 
+		<div className="questionPrompt">You slept through your alarm and barely missed the train to work. The next train isn’t for another 30 minutes, so you’ll definitely be late now. What do you do?</div> 
 		<div id="q1" className="question-box">
 			<div className="reg-radio">
 			<Form.Check
@@ -346,7 +346,7 @@ const DetailedPage = () => {
 				</div>
 			</div>
 			<h3>Question 2.</h3>
-			<span className="questionPrompt">You and a few coworkers are assigned to create a presentation for a conference that many shareholders of your company will be attending. What’s the first thing you’ll do?</span>
+			<div className="questionPrompt">You and a few coworkers are assigned to create a presentation for a conference that many shareholders of your company will be attending. What’s the first thing you’ll do?</div>
 			<div id="q2" className="question-box">
 			<div className="reg-radio">
 			<Form.Check
@@ -411,7 +411,7 @@ const DetailedPage = () => {
 				</div>
 			</div>
 		<h3>Question 3.</h3>
-		<span className="questionPrompt">A coworker comments on your part of the presentation and says it isn’t on the correct topic even though you think it is. What do you do to resolve the situation?</span>
+		<div className="questionPrompt">A coworker comments on your part of the presentation and says it isn’t on the correct topic even though you think it is. What do you do to resolve the situation?</div>
 		<div id="q3" className="question-box">
 		<div className="reg-radio">
 			<Form.Check
@@ -476,7 +476,7 @@ const DetailedPage = () => {
 				</div>
 			</div>
 		<h3>Question 4.</h3>
-		<span className="questionPrompt">You’re in charge of scheduling the meetings for your presentation group. How often should you meet, and for how long?</span>
+		<div className="questionPrompt">You’re in charge of scheduling the meetings for your presentation group. How often should you meet, and for how long?</div>
 		<div id="q4" className="question-box">
 		<div className="reg-radio">
 			<Form.Check
@@ -541,7 +541,7 @@ const DetailedPage = () => {
 				</div>
 			</div>
 		<h3>Question 5.</h3>
-		<span className="questionPrompt">Recently, you feel that you have been working hard and deserve a higher salary. How will you go about asking your boss for a raise?</span>
+		<div className="questionPrompt">Recently, you feel that you have been working hard and deserve a higher salary. How will you go about asking your boss for a raise?</div>
 		<div id="q5" className="question-box">
 		<div className="reg-radio">
 			<Form.Check
@@ -607,7 +607,7 @@ const DetailedPage = () => {
 				</div>
 			</div>
 		<h3>Question 6.</h3>
-		<span className="questionPrompt">As you’re leaving your job for the day, you see a stressed coworker with a pile of paperwork on their desk. What do you do?</span>
+		<div className="questionPrompt">As you’re leaving your job for the day, you see a stressed coworker with a pile of paperwork on their desk. What do you do?</div>
 		<div id="q6" className="question-box">
 		<div className="reg-radio">
 			<Form.Check
@@ -672,7 +672,7 @@ const DetailedPage = () => {
 				</div>
 			</div>
 		<h3>Question 7.</h3>
-		<span className="questionPrompt">After a very stressful workweek, it’s finally time to relax. What do you do to destress over the weekend?</span>
+		<div className="questionPrompt">After a very stressful workweek, it’s finally time to relax. What do you do to destress over the weekend?</div>
 		<div id="q7" className="question-box">
 		<div className="reg-radio">
 			<Form.Check
