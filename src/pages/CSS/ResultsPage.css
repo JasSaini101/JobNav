@@ -49,6 +49,7 @@
 .review-system {
     border: solid 1px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .review-radio{
