@@ -16,10 +16,10 @@ const Navbar = () => {
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                     <DarkModeToggle />
                     <NavMenu>
-                        <NavLink to="/" onClick={()=>{window.location.href = "/starter_helpi/";}}>Home</NavLink>
-                        <NavLink to="/BasicPage" onClick={()=>{window.location.href = "/starter_helpi/#/BasicPage/";}}>Basic Quiz</NavLink>
-                        <NavLink to="/DetailedPage" onClick={()=>{window.location.href = "/starter_helpi/#/DetailedPage/";}}>Detailed Quiz</NavLink>
-                        <NavLink to="/ResultsPage" onClick={()=>{window.location.href = "/starter_helpi/#/ResultsPage/";}}>Results</NavLink>
+                        <NavLink to="/" onClick={()=>{window.location.href = "/JobNav/";}}>Home</NavLink>
+                        <NavLink to="/BasicPage" onClick={()=>{window.location.href = "/JobNav/#/BasicPage/";}}>Basic Quiz</NavLink>
+                        <NavLink to="/DetailedPage" onClick={()=>{window.location.href = "/JobNav/#/DetailedPage/";}}>Detailed Quiz</NavLink>
+                        <NavLink to="/ResultsPage" onClick={()=>{window.location.href = "/JobNav/#/ResultsPage/";}}>Results</NavLink>
                     </NavMenu>
                 </div>
                 
