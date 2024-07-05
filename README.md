@@ -28,4 +28,4 @@ JobNav is a cutting-edge career quiz website powered by OpenAI. We analyze your 
 - OpenAI
 - Additional configurations
 
-# 👷‍♂️Created By Jasnoor Saini, Coleman Walsh, Mateo Torres, Benjamin Le
+# 👷‍♂️Developers Jasnoor Saini, Coleman Walsh, Mateo Torres, Benjamin Le
