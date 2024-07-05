@@ -3,6 +3,18 @@
 > react-scripts test --coverage
 
 PASS src/pages/Tests/ResultsPage.test.tsx
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
 PASS src/pages/Tests/HomePage.test.tsx
   ● Console
 
@@ -17,11 +29,11 @@ PASS src/pages/Tests/HomePage.test.tsx
       /* assert on the output */
       
       This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
-          at HomePage (/home/runner/work/starter_helpi/starter_helpi/src/pages/HTML/HomePage.tsx:20:35)
-          at RenderedRoute (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/hooks.tsx:657:26)
-          at Routes (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/components.tsx:504:3)
-          at Router (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/components.tsx:413:13)
-          at HashRouter (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router-dom/index.tsx:808:3)
+          at HomePage (/home/runner/work/JobNav/JobNav/src/pages/HTML/HomePage.tsx:20:35)
+          at RenderedRoute (/home/runner/work/JobNav/JobNav/node_modules/react-router/lib/hooks.tsx:657:26)
+          at Routes (/home/runner/work/JobNav/JobNav/node_modules/react-router/lib/components.tsx:504:3)
+          at Router (/home/runner/work/JobNav/JobNav/node_modules/react-router/lib/components.tsx:413:13)
+          at HashRouter (/home/runner/work/JobNav/JobNav/node_modules/react-router-dom/index.tsx:808:3)
           at App
 
       28 |     //whenever there's a change it'll store the api key in a local state called key but it won't be set in the local storage until the user clicks the submit button
@@ -90,11 +102,11 @@ PASS src/pages/Tests/HomePage.test.tsx
       /* assert on the output */
       
       This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
-          at HomePage (/home/runner/work/starter_helpi/starter_helpi/src/pages/HTML/HomePage.tsx:20:35)
-          at RenderedRoute (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/hooks.tsx:657:26)
-          at Routes (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/components.tsx:504:3)
-          at Router (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router/lib/components.tsx:413:13)
-          at HashRouter (/home/runner/work/starter_helpi/starter_helpi/node_modules/react-router-dom/index.tsx:808:3)
+          at HomePage (/home/runner/work/JobNav/JobNav/src/pages/HTML/HomePage.tsx:20:35)
+          at RenderedRoute (/home/runner/work/JobNav/JobNav/node_modules/react-router/lib/hooks.tsx:657:26)
+          at Routes (/home/runner/work/JobNav/JobNav/node_modules/react-router/lib/components.tsx:504:3)
+          at Router (/home/runner/work/JobNav/JobNav/node_modules/react-router/lib/components.tsx:413:13)
+          at HashRouter (/home/runner/work/JobNav/JobNav/node_modules/react-router-dom/index.tsx:808:3)
           at App
 
       28 |     //whenever there's a change it'll store the api key in a local state called key but it won't be set in the local storage until the user clicks the submit button
@@ -165,18 +177,6 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
-[0;33mOne of your dependencies, babel-preset-react-app, is importing the
-"@babel/plugin-proposal-private-property-in-object" package without
-declaring it in its dependencies. This is currently working because
-"@babel/plugin-proposal-private-property-in-object" is already in your
-node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
-
-babel-preset-react-app is part of the create-react-app project, [1mwhich
-is not maintianed anymore[0;33m. It is thus unlikely that this bug will
-ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
-your devDependencies to work around this error. This will make this message
-go away.[0m
-  
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
@@ -200,5 +200,5 @@ All files            |   21.13 |    17.82 |   12.72 |    21.4 |
 Test Suites: 2 passed, 2 total
 Tests:       17 passed, 17 total
 Snapshots:   0 total
-Time:        5.07 s
+Time:        5.136 s
 Ran all test suites.
