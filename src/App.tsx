@@ -19,12 +19,12 @@ function App() {
     <><Router>
       <Navbar />
       <Routes>
-        <Route path="/starter_helpi/" element={<HomePage />} />
+        <Route path="/JobNav/" element={<HomePage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/DetailedPage" element={<DetailedPage />} />
         <Route path="/BasicPage" element={<BasicPage/>}/>
         <Route path="/ResultsPage" element={<ResultsPage/>}/>
-        <Route path="/starter_helpi/#/ResultsPage" element={<ResultsPage />} />
+        <Route path="/JobNav/#/ResultsPage" element={<ResultsPage />} />
       </Routes>
     </Router>
 
